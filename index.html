@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kate &amp; Henry — 404010</title>
+<meta name="description" content="Save the date: Kate and Henry's 40th birthdays and 10-year wedding anniversary. Saturday 29th May 2027, 8pm till 2am at The Chapel Bar, Islington. Please RSVP.">
+<meta property="og:title" content="Kate &amp; Henry — 404010">
+<meta property="og:description" content="Two 40th birthdays, ten years married, one long-overdue party under the London stars. Saturday 29th May 2027 at The Chapel Bar, London N1. Please RSVP.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://404010-party.oooooooo.my/">
+<meta name="theme-color" content="#020831">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,600..900,0..100&family=Nunito:wght@400;600;700;800&family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* palette (Disco Midnight blues, Velvet Disco warm neutrals) */
+  --ink:#020831; --navy:#0a1554; --card:#16226e; --blue:#3d63f0; --amp:#8fa7ff; --sky-end:#13237f;
+  --gold:#ffc531; --gold-deep:#d9860f; --gold-soft:#ffe08f; --gold-ink:#7a541c;
+  --white:#f5f7ff; --muted:#c3cbf2;
+  --cream:#f7efdf; --cream-2:#efe2c6; --paper:#fffaf0;
+  --text:#141a44; --text-soft:#4a5079; --error:#9b2f1f;
+  --rule:rgba(122,84,28,.22); --rule-strong:rgba(122,84,28,.4); --gold-line:rgba(255,197,49,.35); --blue-glow:rgba(61,99,240,.28);
+  /* type */
+  --serif:"Sorts Mill Goudy", "Goudy Bookletter 1911", Georgia, serif;
+  --sans:"Nunito", "Varela Round", system-ui, sans-serif;
+  --fat:"Fraunces", "Cooper Black", Georgia, serif;
+  --fs-lead:1.25rem; --fs-body:1.0625rem; --fs-small:.9375rem;
+  /* layout */
+  --gutter:clamp(16px, 5vw, 48px); --w-wide:960px; --w-text:680px;
+  --r-card:16px; --r-field:12px; --r-pill:999px;
+  --stub-w:210px; --notch:13px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;background:var(--ink)}
+body{margin:0;background:var(--cream);color:var(--text);font:400 var(--fs-body)/1.65 var(--sans);overflow-x:hidden;-webkit-font-smoothing:antialiased;font-variant-numeric:lining-nums}
+*,::before,::after{font-variant-numeric:lining-nums!important} /* every font: shorthand resets this; !important is the only way a universal rule outranks them */
+svg{display:block;max-width:100%}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.cream :focus-visible{outline-color:var(--navy)}
+.sr,.hp{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+sup{font-size:.5em;line-height:0;vertical-align:.85em}
+.wrap{width:100%;max-width:1080px;margin:0 auto;padding-inline:var(--gutter)}
+.caps{font:800 .75rem/1.2 var(--sans);letter-spacing:.16em;text-transform:uppercase}
+
+/* ---------- section chrome ---------- */
+.sec{position:relative;padding-block:clamp(4.5rem, 11vw, 8rem)}
+.sec.navy{background:
+  radial-gradient(ellipse 80% 60% at 15% 0%, rgba(61,99,240,.18), transparent 70%),
+  radial-gradient(ellipse 70% 70% at 100% 100%, rgba(2,8,49,.55), transparent 70%), var(--navy);color:var(--white);overflow:hidden}
+.sec.navy::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.8;
+  background-image:radial-gradient(1px 1px at 22px 30px,#fff,transparent),radial-gradient(1.4px 1.4px at 170px 90px,#fff3d6,transparent),
+    radial-gradient(1px 1px at 260px 210px,#dfe6ff,transparent),radial-gradient(1px 1px at 90px 250px,#fff,transparent),
+    radial-gradient(1.2px 1.2px at 310px 40px,#fff,transparent),radial-gradient(1px 1px at 120px 150px,#dfe6ff,transparent),
+    radial-gradient(1px 1px at 230px 120px,#fff3d6,transparent),radial-gradient(1.3px 1.3px at 40px 200px,#fff,transparent);
+  background-size:347px 293px}
+.sec.cream{background:radial-gradient(ellipse 90% 70% at 50% 0%, var(--paper), transparent 75%), var(--cream)}
+.head{text-align:center;margin:0 auto clamp(2.5rem, 6vw, 4rem);max-width:36rem}
+.eyebrow{font:italic 400 clamp(1.05rem, 3vw, 1.25rem)/1.4 var(--serif);margin:0 0 .35rem;color:var(--gold-ink)}
+.navy .eyebrow{color:var(--gold)}
+h2{font:400 clamp(2.6rem, 8.5vw, 4.4rem)/1 var(--serif);margin:0;letter-spacing:-.01em;text-wrap:balance}
+.cream h2{color:var(--navy)}
+.spark{display:block;width:120px;height:16px;margin:1rem auto 0;color:var(--gold-ink)}
+.navy .spark{color:var(--gold)}
+
+/* buttons: one primary (gold), one secondary (outline) */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;min-height:48px;padding:.7em 1.5em;border-radius:var(--r-pill);
+  font:700 .98rem/1 var(--sans);letter-spacing:.02em;text-decoration:none;cursor:pointer;border:2px solid currentColor;background:none;
+  transition:background .25s, color .25s, transform .25s}
+.btn:hover{transform:translateY(-2px)}
+.btn.primary{background:var(--gold);color:var(--ink);border-color:var(--gold);font-weight:800;font-size:.9rem;letter-spacing:.2em;text-transform:uppercase;
+  padding:.7em 2em .7em 2.2em;min-height:52px;box-shadow:0 4px 0 var(--gold-deep), 0 12px 30px -10px rgba(255,197,49,.7)}
+.btn.primary:hover{background:var(--gold-soft)}
+.btn.primary[disabled]{opacity:.65;cursor:progress;transform:none}
+.cream .btn:not(.primary){color:var(--navy)}
+.cream .btn:not(.primary):hover{background:var(--navy);color:var(--cream)}
+
+/* ---------- hero (from 13, portrait removed) ---------- */
+.hero{position:relative;overflow:hidden;isolation:isolate;display:flex;flex-direction:column;min-height:min(100svh, 860px);color:var(--white);
+  background:
+    radial-gradient(ellipse 120% 44% at 50% 100%, rgba(61,99,240,.52), rgba(61,99,240,.14) 55%, transparent 80%),
+    linear-gradient(180deg, var(--ink) 0%, #040b38 34%, var(--navy) 72%, var(--sky-end) 100%)}
+.stars,.stars::after{position:absolute;inset:0;z-index:-2;pointer-events:none;
+  -webkit-mask-image:linear-gradient(#000 35%,rgba(0,0,0,.45) 68%,transparent 88%);mask-image:linear-gradient(#000 35%,rgba(0,0,0,.45) 68%,transparent 88%)}
+.stars{background-image:
+  radial-gradient(1px 1px at 12px 18px,#fff,transparent),radial-gradient(1px 1px at 61px 97px,#fff3d6,transparent),
+  radial-gradient(1.5px 1.5px at 133px 41px,#fff,transparent),radial-gradient(1px 1px at 171px 142px,#dfe6ff,transparent),
+  radial-gradient(1px 1px at 88px 160px,#fff,transparent),radial-gradient(1px 1px at 37px 121px,#fff,transparent),
+  radial-gradient(1.2px 1.2px at 152px 83px,#fff,transparent),radial-gradient(1px 1px at 104px 9px,#fff3d6,transparent),
+  radial-gradient(1px 1px at 331px 262px,#fff,transparent),radial-gradient(1.3px 1.3px at 97px 403px,#dfe6ff,transparent),
+  radial-gradient(1px 1px at 455px 121px,#fff,transparent),radial-gradient(1px 1px at 212px 347px,#fff3d6,transparent),
+  radial-gradient(1.1px 1.1px at 503px 441px,#fff,transparent),radial-gradient(1px 1px at 389px 37px,#fff,transparent),
+  radial-gradient(1px 1px at 29px 289px,#dfe6ff,transparent);
+  background-size:190px 180px,190px 180px,190px 180px,190px 180px,190px 180px,190px 180px,190px 180px,190px 180px,
+    547px 491px,547px 491px,547px 491px,547px 491px,547px 491px,547px 491px,547px 491px}
+.stars::after{content:"";background-image:
+  radial-gradient(2px 2px at 40px 60px,#fff,transparent),radial-gradient(1.6px 1.6px at 230px 20px,#ffeccf,transparent),
+  radial-gradient(2.2px 2.2px at 160px 190px,#fff,transparent),radial-gradient(1.4px 1.4px at 280px 130px,#cfd9ff,transparent);
+  background-size:310px 260px;animation:twinkle 5s ease-in-out infinite alternate}
+@keyframes twinkle{from{opacity:.25}to{opacity:1}}
+.glints{position:absolute;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none;color:#fff8e6}
+.glints use{animation:twinkle 3.2s ease-in-out infinite alternate}
+.hero-text{position:relative;z-index:1;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
+  width:100%;max-width:880px;margin:0 auto;padding:clamp(60px, 11vh, 120px) var(--gutter) clamp(56px, 10vh, 120px)}
+.invite{font:italic 400 clamp(1.2rem, 4vw, 1.5rem)/1.4 var(--serif);margin:0;color:var(--white)}
+.names{font:400 clamp(4.1rem, calc(13vw + 1rem), 7.4rem)/.9 var(--serif);margin:.3em 0 .24em;display:grid;width:min(100%, 5.6em);position:relative;
+  text-shadow:0 0 40px rgba(61,99,240,.4)}
+.names .n1{justify-self:start}
+.names .n2{justify-self:end;margin-top:.1em}
+.names .amp{position:absolute;left:50%;top:50%;transform:translate(-62%,-46%);font:italic 400 1.4em/1 var(--serif);
+  color:var(--amp);opacity:.9;z-index:-1;text-shadow:0 0 30px rgba(61,99,240,.55)}
+.occasion{font:italic 400 clamp(1.1rem, 3.7vw, 1.4rem)/1.45 var(--serif);color:var(--muted);margin:0;max-width:34ch;text-wrap:balance}
+.date-row{display:flex;align-items:center;justify-content:center;gap:clamp(6px, 2vw, 18px);margin:1.6rem 0 .5rem;width:100%}
+.flourish{width:clamp(36px, 11vw, 100px);height:auto;aspect-ratio:3;color:var(--gold-soft);flex:none}
+.flourish.r{transform:scaleX(-1)}
+.date{margin:0;font:400 clamp(2.1rem, 9vw, 3.9rem)/1.02 var(--serif);color:var(--gold);letter-spacing:.01em;
+  text-shadow:0 .06em 0 var(--ink), 0 .14em .35em rgba(2,8,49,.55)}
+.date span{display:block;white-space:nowrap}
+.date sup{font-size:.5em;margin-right:-.6em}
+.where{font:italic 400 clamp(1.05rem, 3.4vw, 1.25rem)/1.6 var(--serif);color:var(--muted);margin:.8rem 0 1.7rem}
+.skyline{position:relative;z-index:1;display:block;width:100%;max-width:none;height:clamp(128px, calc(22vw - 20px), 250px);margin:0 0 -1px;flex:none}
+@media (max-width:480px){.skyline{height:clamp(100px, 28vw, 128px)}}
+.sk-back{fill:var(--card)}
+.sk-win rect{fill:var(--gold);opacity:.6}
+.sk-front{fill:var(--ink)}
+.sk-line{stroke:var(--ink)}
+.sk-clock{fill:#ffe3a0;filter:drop-shadow(0 0 5px #ffcf60)}
+
+/* ---------- intro ---------- */
+.intro .wrap{display:grid;gap:clamp(2.5rem, 6vw, 4rem);align-items:center;max-width:var(--w-wide)}
+.emblem{display:flex;justify-content:center;gap:clamp(1rem, 4vw, 2rem);margin:0;padding:0;list-style:none}
+.emblem li{text-align:center}
+.emblem b{display:block;font-size:clamp(3.5rem, 14vw, 6rem);line-height:1;color:var(--navy)}
+.emblem li:last-child b{color:var(--gold-ink)}
+.emblem span{display:block;color:var(--text-soft);margin-top:.5rem}
+.intro-copy{max-width:36rem;margin:0 auto}
+.intro-copy p{margin:0 0 1.1rem;font-size:var(--fs-lead);line-height:1.6}
+.intro-copy p.lead{font:400 clamp(1.45rem, 4.2vw, 1.85rem)/1.4 var(--serif);text-wrap:balance}
+@media (min-width:900px){.intro .wrap{grid-template-columns:minmax(0, 5fr) minmax(0, 6fr)}.intro .head{text-align:left;margin:0 0 1.5rem}.intro .spark{margin-left:0}}
+
+/* ---------- ticket ---------- */
+.ticket-wrap{max-width:940px;margin:0 auto;filter:drop-shadow(0 26px 24px rgba(0,0,0,.45))}
+.ticket{position:relative;display:grid;background:var(--cream);color:var(--text);border-radius:var(--r-card);overflow:hidden;
+  -webkit-mask:radial-gradient(circle var(--notch) at 0 calc(100% - var(--stub-h)), #0000 97%, #000) left/51% 100% no-repeat,
+               radial-gradient(circle var(--notch) at 100% calc(100% - var(--stub-h)), #0000 97%, #000) right/51% 100% no-repeat;
+  mask:radial-gradient(circle var(--notch) at 0 calc(100% - var(--stub-h)), #0000 97%, #000) left/51% 100% no-repeat,
+       radial-gradient(circle var(--notch) at 100% calc(100% - var(--stub-h)), #0000 97%, #000) right/51% 100% no-repeat;
+  --stub-h:150px}
+.ticket::before{content:"";position:absolute;inset:8px;border:1px solid var(--rule-strong);border-radius:10px;pointer-events:none;z-index:1}
+.t-main{padding:clamp(1.75rem, 5vw, 3rem);display:grid;gap:1.75rem}
+.t-label{color:var(--gold-ink);margin:0 0 .6rem}
+.t-big{font:400 clamp(1.75rem, 5.5vw, 2.2rem)/1.1 var(--serif);margin:0;color:var(--navy)}
+.t-big.fat{font-size:clamp(1.6rem, 4.6vw, 1.85rem);line-height:1.08;white-space:nowrap}
+.t-sub{margin:.5rem 0 0;color:var(--text-soft)}
+address{font-style:normal}
+.t-links{display:flex;flex-wrap:wrap;gap:.6rem}
+.t-stub{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.35rem;text-align:center;height:var(--stub-h);
+  padding:1.5rem;border-top:2px dashed var(--rule-strong);background:var(--cream-2)}
+.t-stub span{font:italic 400 1rem/1.2 var(--serif);color:var(--gold-ink)}
+.t-stub strong{font:400 clamp(1.7rem, 5vw, 2.1rem)/1 var(--serif);color:var(--navy);white-space:nowrap}
+.t-stub .no{font-size:1.05rem;letter-spacing:.12em;padding-left:.12em;color:var(--gold-ink);margin-top:.4rem}
+@media (min-width:900px){
+  .ticket{grid-template-columns:1fr var(--stub-w);
+    -webkit-mask:radial-gradient(circle var(--notch) at calc(100% - var(--stub-w)) 0, #0000 97%, #000) top/100% 51% no-repeat,
+                 radial-gradient(circle var(--notch) at calc(100% - var(--stub-w)) 100%, #0000 97%, #000) bottom/100% 51% no-repeat;
+    mask:radial-gradient(circle var(--notch) at calc(100% - var(--stub-w)) 0, #0000 97%, #000) top/100% 51% no-repeat,
+         radial-gradient(circle var(--notch) at calc(100% - var(--stub-w)) 100%, #0000 97%, #000) bottom/100% 51% no-repeat}
+  .t-main{grid-template-columns:minmax(0, 1.45fr) minmax(0, 1fr);column-gap:2.5rem}
+  .t-main .t-links{grid-column:1/-1}
+  .t-stub{height:auto;border-top:0;border-left:2px dashed var(--rule-strong);padding-inline:1rem}
+}
+
+/* ---------- programme ---------- */
+.programme{list-style:none;margin:0 auto;padding:0;max-width:var(--w-text)}
+.programme li{display:grid;grid-template-columns:6.4rem 1fr;gap:1.1rem;align-items:baseline;padding:1.1rem 0;border-bottom:1px solid var(--rule)}
+.programme li:first-child{border-top:1px solid var(--rule)}
+.programme time{font-size:clamp(1.45rem, 4.4vw, 1.8rem);line-height:1;color:var(--gold-ink);text-align:right}
+.programme .what{font:400 clamp(1.25rem, 3.8vw, 1.5rem)/1.35 var(--serif)}
+.note{text-align:center;font:italic 400 1.1rem/1.5 var(--serif);color:var(--text-soft);margin:1.75rem 0 0}
+
+/* ---------- FAQ ---------- */
+.faq{display:grid;gap:1rem;max-width:var(--w-wide);margin:0 auto}
+.faq article{padding:1.5rem 1.4rem 1.6rem;border:1px solid var(--gold-line);border-radius:var(--r-card);background:var(--card);box-shadow:0 18px 40px -24px rgba(0,0,0,.6)}
+.faq h3{display:grid;grid-template-columns:auto 1fr;column-gap:.45em;align-items:baseline;font:400 clamp(1.4rem, 4vw, 1.65rem)/1.2 var(--serif);margin:0 0 .5rem;color:var(--gold-soft);text-wrap:balance}
+.faq h3 svg{width:.75em;height:.75em;color:var(--gold);align-self:center}
+.faq p{margin:0;color:var(--muted);font-size:var(--fs-body);line-height:1.6}
+@media (min-width:760px){.faq{grid-template-columns:1fr 1fr;gap:1.25rem}.faq .wide{grid-column:1/-1}}
+
+/* ---------- RSVP ---------- */
+.card{max-width:720px;margin:0 auto;background:var(--paper);border-radius:var(--r-card);padding:clamp(1.4rem, 5vw, 2.75rem);
+  box-shadow:0 1px 0 rgba(122,84,28,.15), 0 24px 50px -28px rgba(10,21,84,.45);border:1px solid var(--rule)}
+.field{display:grid;gap:.35rem;margin:0 0 1.1rem}
+label{font:700 1rem/1.3 var(--sans);color:var(--text)}
+.opt{font:600 .78rem/1 var(--sans);color:var(--text-soft);margin-left:.35em;letter-spacing:.04em}
+.hint{font:400 var(--fs-small)/1.3 var(--sans);color:var(--text-soft)}
+input,textarea{width:100%;font:400 var(--fs-body)/1.4 var(--sans);color:var(--text);background:#fff;border:1.5px solid var(--rule-strong);border-radius:var(--r-field);
+  padding:.7rem .9rem;min-height:48px;transition:border-color .2s, box-shadow .2s}
+textarea{min-height:92px;resize:vertical}
+input:focus,textarea:focus{outline:none;border-color:var(--navy);box-shadow:0 0 0 3px rgba(10,21,84,.22)}
+.size{display:flex;flex-direction:column;align-items:center;text-align:center;gap:.8rem;padding-bottom:1.6rem;margin-bottom:1.6rem;border-bottom:1px solid var(--rule)}
+.size label{font:400 clamp(1.35rem, 4.2vw, 1.6rem)/1.25 var(--serif);color:var(--navy)}
+.stepper{display:flex;align-items:center;border:2px solid var(--navy);border-radius:var(--r-pill);overflow:hidden;background:#fff;transition:box-shadow .2s}
+.stepper:focus-within{box-shadow:0 0 0 3px rgba(10,21,84,.22)}
+.stepper button{width:52px;height:52px;border:0;background:var(--navy);color:var(--gold);font:800 1.6rem/1 var(--sans);cursor:pointer;transition:background .2s}
+.stepper button:not(:disabled):hover{background:var(--card)}
+.stepper button:disabled{background:var(--cream-2);color:rgba(10,21,84,.35);cursor:not-allowed}
+.stepper button:focus-visible{outline-offset:-4px}
+.stepper input{width:76px;border:0;border-radius:0;text-align:center;font-size:1.9rem;color:var(--navy);min-height:52px;padding:0;-moz-appearance:textfield;appearance:textfield}
+.stepper input::-webkit-inner-spin-button,.stepper input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+.stepper input:focus{box-shadow:none;background:var(--cream)}
+fieldset.person{border:0;margin:0 0 1.75rem;padding:0;min-width:0;animation:rise .45s ease both}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}}
+legend{display:flex;align-items:center;gap:.75rem;width:100%;padding:0;margin:0 0 1rem;font:400 1.6rem/1 var(--serif);color:var(--navy)}
+legend .fat{font-size:.72em;color:var(--gold-ink);transform:translateY(-.06em)}
+legend::after{content:"";flex:1;height:1px;background:linear-gradient(90deg, var(--gold-deep), transparent)}
+@media (min-width:640px){.pgrid{display:grid;grid-template-columns:1fr 1fr;column-gap:1rem}.pgrid .full{grid-column:1/-1}}
+.actions{display:flex;flex-direction:column;align-items:center;gap:1rem;margin-top:.5rem}
+.submit{min-width:min(100%, 280px)}
+.form-error{margin:0;padding:1rem 1.1rem;border-radius:var(--r-field);background:rgba(155,47,31,.08);color:var(--error);border:1px solid rgba(155,47,31,.35);font-size:var(--fs-small);text-align:center}
+.success{text-align:center;padding:1rem 0}
+.success:focus{outline:none}
+.success svg{width:110px;height:auto;margin:0 auto}
+.success h3{font:400 clamp(2.4rem, 8vw, 3.2rem)/1.05 var(--serif);color:var(--navy);margin:1rem 0 .6rem}
+.success p{margin:0 auto;max-width:30ch;color:var(--text-soft);text-wrap:balance}
+[hidden]{display:none!important}
+
+/* ---------- footer ---------- */
+footer{background:var(--ink);color:var(--muted);text-align:center;padding:2.75rem var(--gutter) calc(2.75rem + env(safe-area-inset-bottom))}
+footer .sig{font:400 clamp(1.9rem, 6vw, 2.5rem)/1 var(--serif);color:var(--white);margin:0}
+footer .sig span{font-style:italic;color:var(--amp)}
+footer p{margin:.6rem 0 0;font-size:var(--fs-small);text-wrap:balance}
+footer .code{font-size:1.1rem;letter-spacing:.3em;padding-left:.3em;color:var(--gold);margin-top:1rem}
+
+/* numbers and dates: the chunky Fraunces face (declared last so no font: shorthand above can override it) */
+body .fat{font-family:var(--fat);font-weight:900;font-style:normal;font-variation-settings:"SOFT" 100;font-optical-sizing:auto}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .stars::after,.glints use,fieldset.person{animation:none!important}
+  .btn,.stepper button{transition:none}
+  .btn:hover{transform:none}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="star4" viewBox="-10 -10 20 20"><path d="M0-10C1 -2 2-1 10 0C2 1 1 2 0 10C-1 2-2 1-10 0C-2-1-1-2 0-10Z" fill="currentColor"/></symbol>
+  <symbol id="spk" viewBox="0 0 120 16"><g fill="none" stroke="currentColor" stroke-width="1"><path d="M0 8h46M74 8h46"/></g><use href="#star4" x="51" y="-1" width="18" height="18"/><circle cx="42" cy="8" r="1.6" fill="currentColor"/><circle cx="78" cy="8" r="1.6" fill="currentColor"/></symbol>
+  <symbol id="flourish" viewBox="0 0 120 40"><path d="M119 20C98 20 86 9 66 10 46 11 42 32 25 30 11 28 9 14 19 12c8-2 12 8 4 10-4 1-6-2-4-4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="119" cy="20" r="1.8" fill="currentColor"/></symbol>
+</svg>
+
+<header class="hero" id="top">
+  <div class="stars" aria-hidden="true"></div>
+  <svg class="glints" viewBox="0 0 1000 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <use href="#star4" x="80" y="90" width="14" height="14"/>
+    <use href="#star4" x="900" y="60" width="18" height="18" style="animation-delay:-1.1s"/>
+    <use href="#star4" x="840" y="330" width="11" height="11" style="animation-delay:-2.2s"/>
+    <use href="#star4" x="130" y="400" width="10" height="10" style="animation-delay:-.6s"/>
+    <use href="#star4" x="560" y="30" width="9" height="9" style="animation-delay:-1.7s"/>
+  </svg>
+  <div class="hero-text">
+    <p class="invite">Please join us to celebrate</p>
+    <h1 class="names"><span class="n1">Kate</span><span class="amp" aria-hidden="true">&amp;</span><span class="sr"> and </span><span class="n2">Henry</span></h1>
+    <p class="occasion">and their 40th birthdays &amp; 10&#8209;year wedding anniversary</p>
+    <div class="date-row">
+      <svg class="flourish" aria-hidden="true"><use href="#flourish"/></svg>
+      <p class="date"><time datetime="2027-05-29"><span>Saturday 29<sup>th</sup></span><span>May 2027</span></time></p>
+      <svg class="flourish r" aria-hidden="true"><use href="#flourish"/></svg>
+    </div>
+    <p class="where">8pm till 2am &middot; The Chapel Bar, Islington</p>
+    <a class="btn primary" href="#rsvp">RSVP</a>
+  </div>
+  <svg class="skyline" viewBox="0 0 1600 200" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
+<path class="sk-back" d="M0 200V114H58V120H84V127H126V142H182V95H234V84H278V120H316V151H356V114H401V112H440V132H463V92H514V133H564V123H605V136H627V159H676V134H727V159H771V117H822V130H875V110H907V138H960V129H992V141H1014V145H1055V122H1104V145H1144V127H1168V106H1208V99H1265V99H1296V90H1341V108H1384V120H1421V103H1449V98H1482V103H1523V108H1562V141H1600V200Z"/>
+<g class="sk-win"><rect x="13" y="122" width="3" height="4"/><rect x="21" y="122" width="3" height="4"/><rect x="29" y="131" width="3" height="4"/><rect x="37" y="131" width="3" height="4"/><rect x="45" y="140" width="3" height="4"/><rect x="21" y="149" width="3" height="4"/><rect x="21" y="167" width="3" height="4"/><rect x="37" y="194" width="3" height="4"/><rect x="71" y="128" width="3" height="4"/><rect x="63" y="164" width="3" height="4"/><rect x="63" y="173" width="3" height="4"/><rect x="89" y="135" width="3" height="4"/><rect x="97" y="153" width="3" height="4"/><rect x="97" y="162" width="3" height="4"/><rect x="113" y="162" width="3" height="4"/><rect x="105" y="180" width="3" height="4"/><rect x="89" y="189" width="3" height="4"/><rect x="97" y="189" width="3" height="4"/><rect x="105" y="189" width="3" height="4"/><rect x="139" y="168" width="3" height="4"/><rect x="155" y="168" width="3" height="4"/><rect x="171" y="168" width="3" height="4"/><rect x="163" y="177" width="3" height="4"/><rect x="131" y="195" width="3" height="4"/><rect x="203" y="112" width="3" height="4"/><rect x="203" y="130" width="3" height="4"/><rect x="219" y="130" width="3" height="4"/><rect x="227" y="139" width="3" height="4"/><rect x="203" y="148" width="3" height="4"/><rect x="219" y="148" width="3" height="4"/><rect x="203" y="184" width="3" height="4"/><rect x="227" y="184" width="3" height="4"/><rect x="187" y="193" width="3" height="4"/><rect x="263" y="101" width="3" height="4"/><rect x="247" y="110" width="3" height="4"/><rect x="247" y="119" width="3" height="4"/><rect x="239" y="128" width="3" height="4"/><rect x="247" y="128" width="3" height="4"/><rect x="255" y="128" width="3" height="4"/><rect x="263" y="128" width="3" height="4"/><rect x="255" y="173" width="3" height="4"/><rect x="263" y="182" width="3" height="4"/><rect x="283" y="128" width="3" height="4"/><rect x="307" y="128" width="3" height="4"/><rect x="291" y="137" width="3" height="4"/><rect x="299" y="146" width="3" height="4"/><rect x="299" y="155" width="3" height="4"/><rect x="307" y="164" width="3" height="4"/><rect x="307" y="182" width="3" height="4"/><rect x="337" y="168" width="3" height="4"/><rect x="329" y="177" width="3" height="4"/><rect x="345" y="186" width="3" height="4"/><rect x="369" y="131" width="3" height="4"/><rect x="361" y="158" width="3" height="4"/><rect x="393" y="167" width="3" height="4"/><rect x="393" y="176" width="3" height="4"/><rect x="406" y="138" width="3" height="4"/><rect x="422" y="138" width="3" height="4"/><rect x="406" y="174" width="3" height="4"/><rect x="430" y="174" width="3" height="4"/><rect x="453" y="158" width="3" height="4"/><rect x="500" y="100" width="3" height="4"/><rect x="508" y="100" width="3" height="4"/><rect x="484" y="109" width="3" height="4"/><rect x="500" y="118" width="3" height="4"/><rect x="468" y="136" width="3" height="4"/><rect x="484" y="145" width="3" height="4"/><rect x="492" y="145" width="3" height="4"/><rect x="492" y="163" width="3" height="4"/><rect x="500" y="163" width="3" height="4"/><rect x="484" y="190" width="3" height="4"/><rect x="527" y="141" width="3" height="4"/><rect x="527" y="159" width="3" height="4"/><rect x="527" y="168" width="3" height="4"/><rect x="527" y="177" width="3" height="4"/><rect x="543" y="177" width="3" height="4"/><rect x="543" y="186" width="3" height="4"/><rect x="569" y="131" width="3" height="4"/><rect x="577" y="140" width="3" height="4"/><rect x="593" y="149" width="3" height="4"/><rect x="585" y="158" width="3" height="4"/><rect x="569" y="167" width="3" height="4"/><rect x="577" y="176" width="3" height="4"/><rect x="585" y="176" width="3" height="4"/><rect x="569" y="185" width="3" height="4"/><rect x="593" y="185" width="3" height="4"/><rect x="577" y="194" width="3" height="4"/><rect x="618" y="189" width="3" height="4"/><rect x="664" y="167" width="3" height="4"/><rect x="648" y="176" width="3" height="4"/><rect x="640" y="185" width="3" height="4"/><rect x="648" y="185" width="3" height="4"/><rect x="689" y="151" width="3" height="4"/><rect x="697" y="151" width="3" height="4"/><rect x="721" y="151" width="3" height="4"/><rect x="681" y="160" width="3" height="4"/><rect x="697" y="169" width="3" height="4"/><rect x="705" y="169" width="3" height="4"/><rect x="681" y="178" width="3" height="4"/><rect x="713" y="187" width="3" height="4"/><rect x="732" y="176" width="3" height="4"/><rect x="764" y="176" width="3" height="4"/><rect x="776" y="125" width="3" height="4"/><rect x="776" y="134" width="3" height="4"/><rect x="816" y="143" width="3" height="4"/><rect x="784" y="161" width="3" height="4"/><rect x="784" y="188" width="3" height="4"/><rect x="835" y="138" width="3" height="4"/><rect x="859" y="138" width="3" height="4"/><rect x="843" y="147" width="3" height="4"/><rect x="867" y="147" width="3" height="4"/><rect x="859" y="156" width="3" height="4"/><rect x="843" y="165" width="3" height="4"/><rect x="827" y="174" width="3" height="4"/><rect x="843" y="192" width="3" height="4"/><rect x="859" y="192" width="3" height="4"/><rect x="867" y="192" width="3" height="4"/><rect x="888" y="154" width="3" height="4"/><rect x="880" y="172" width="3" height="4"/><rect x="936" y="146" width="3" height="4"/><rect x="912" y="155" width="3" height="4"/><rect x="928" y="155" width="3" height="4"/><rect x="981" y="137" width="3" height="4"/><rect x="973" y="164" width="3" height="4"/><rect x="1005" y="176" width="3" height="4"/><rect x="997" y="185" width="3" height="4"/><rect x="1043" y="153" width="3" height="4"/><rect x="1019" y="162" width="3" height="4"/><rect x="1035" y="162" width="3" height="4"/><rect x="1068" y="139" width="3" height="4"/><rect x="1084" y="139" width="3" height="4"/><rect x="1092" y="139" width="3" height="4"/><rect x="1076" y="148" width="3" height="4"/><rect x="1060" y="175" width="3" height="4"/><rect x="1076" y="175" width="3" height="4"/><rect x="1092" y="193" width="3" height="4"/><rect x="1133" y="153" width="3" height="4"/><rect x="1117" y="162" width="3" height="4"/><rect x="1133" y="162" width="3" height="4"/><rect x="1109" y="171" width="3" height="4"/><rect x="1117" y="180" width="3" height="4"/><rect x="1125" y="189" width="3" height="4"/><rect x="1149" y="180" width="3" height="4"/><rect x="1173" y="114" width="3" height="4"/><rect x="1181" y="114" width="3" height="4"/><rect x="1197" y="123" width="3" height="4"/><rect x="1173" y="141" width="3" height="4"/><rect x="1173" y="186" width="3" height="4"/><rect x="1189" y="186" width="3" height="4"/><rect x="1181" y="195" width="3" height="4"/><rect x="1189" y="195" width="3" height="4"/><rect x="1229" y="107" width="3" height="4"/><rect x="1237" y="107" width="3" height="4"/><rect x="1237" y="125" width="3" height="4"/><rect x="1245" y="125" width="3" height="4"/><rect x="1221" y="134" width="3" height="4"/><rect x="1229" y="152" width="3" height="4"/><rect x="1253" y="161" width="3" height="4"/><rect x="1213" y="179" width="3" height="4"/><rect x="1237" y="179" width="3" height="4"/><rect x="1286" y="107" width="3" height="4"/><rect x="1270" y="125" width="3" height="4"/><rect x="1286" y="125" width="3" height="4"/><rect x="1270" y="143" width="3" height="4"/><rect x="1278" y="152" width="3" height="4"/><rect x="1278" y="161" width="3" height="4"/><rect x="1325" y="98" width="3" height="4"/><rect x="1309" y="116" width="3" height="4"/><rect x="1333" y="143" width="3" height="4"/><rect x="1301" y="152" width="3" height="4"/><rect x="1325" y="152" width="3" height="4"/><rect x="1333" y="152" width="3" height="4"/><rect x="1333" y="161" width="3" height="4"/><rect x="1301" y="170" width="3" height="4"/><rect x="1325" y="170" width="3" height="4"/><rect x="1317" y="179" width="3" height="4"/><rect x="1309" y="188" width="3" height="4"/><rect x="1325" y="188" width="3" height="4"/><rect x="1333" y="188" width="3" height="4"/><rect x="1354" y="116" width="3" height="4"/><rect x="1378" y="125" width="3" height="4"/><rect x="1354" y="134" width="3" height="4"/><rect x="1346" y="161" width="3" height="4"/><rect x="1378" y="161" width="3" height="4"/><rect x="1346" y="179" width="3" height="4"/><rect x="1413" y="146" width="3" height="4"/><rect x="1389" y="155" width="3" height="4"/><rect x="1405" y="182" width="3" height="4"/><rect x="1389" y="191" width="3" height="4"/><rect x="1442" y="138" width="3" height="4"/><rect x="1426" y="156" width="3" height="4"/><rect x="1442" y="174" width="3" height="4"/><rect x="1454" y="115" width="3" height="4"/><rect x="1470" y="124" width="3" height="4"/><rect x="1470" y="133" width="3" height="4"/><rect x="1470" y="178" width="3" height="4"/><rect x="1495" y="129" width="3" height="4"/><rect x="1503" y="129" width="3" height="4"/><rect x="1503" y="138" width="3" height="4"/><rect x="1511" y="147" width="3" height="4"/><rect x="1503" y="156" width="3" height="4"/><rect x="1511" y="156" width="3" height="4"/><rect x="1495" y="174" width="3" height="4"/><rect x="1495" y="183" width="3" height="4"/><rect x="1503" y="183" width="3" height="4"/><rect x="1544" y="116" width="3" height="4"/><rect x="1544" y="125" width="3" height="4"/><rect x="1536" y="134" width="3" height="4"/><rect x="1528" y="143" width="3" height="4"/><rect x="1536" y="143" width="3" height="4"/><rect x="1552" y="143" width="3" height="4"/><rect x="1552" y="179" width="3" height="4"/><rect x="1536" y="188" width="3" height="4"/><rect x="1575" y="158" width="3" height="4"/><rect x="1567" y="167" width="3" height="4"/><rect x="1583" y="167" width="3" height="4"/><rect x="1567" y="176" width="3" height="4"/><rect x="1591" y="176" width="3" height="4"/><rect x="1599" y="176" width="3" height="4"/><rect x="1567" y="194" width="3" height="4"/></g>
+<g class="sk-front"><path d="M0 200V162H29V152H72V147H103V140H127V165H151V136H174V131H211V179H239V163H266V128H283V179H325V168H359V171H394V168H437V142H457V140H484V175H508V173H534V183H567V186H589V186H626V180H654V174H683V178H726V176H768V174H805V171H837V170H870V176H911V171H954V182H979V185H1005V186H1042V182H1079V179H1104V170H1133V179H1161V136H1203V143H1234V154H1250V157H1276V140H1304V136H1339V140H1371V136H1392V142H1430V168H1470V161H1512V137H1555V174H1583V145H1600V200Z"/><path d="M606 200V72H624V200Z M604 72L608 58H622L626 72Z M608 58L615 22L622 58Z M624 200V150H712V200Z M640 150V138H646V150Z M662 150V140H668V150Z M684 150V136H690V150Z M700 150V128H710V150Z M724 200V156H796V200Z M742 156V134H778V156Z M740 136A20 26 0 0 1 780 136Z M756 112V96H764V112Z M759 96V80H761V96Z M726 156V138L731 128L736 138V156Z M784 156V138L789 128L794 138V156Z M826 200C820 140 826 92 842 62C858 92 864 140 858 200Z M880 200L897 16L901 28L905 10L928 200Z M936 200V120H958V200Z M946 164V158H1134V164Z M980 200V78H1000V200Z M1080 200V78H1100V200Z M978 78L990 56L1002 78Z M1078 78L1090 56L1102 78Z M978 82V70H982V82Z M998 82V70H1002V82Z M1078 82V70H1082V82Z M1098 82V70H1102V82Z M1000 92V86H1080V92Z M1000 100V96H1080V100Z"/><g class="sk-line"><circle cx="530" cy="112" r="56" fill="none" stroke-width="3"/><circle cx="530" cy="112" r="48" fill="none" stroke-width="1"/><path d="M530 112L586.0 112.0 M530 112L583.3 129.3 M530 112L575.3 144.9 M530 112L562.9 157.3 M530 112L547.3 165.3 M530 112L530.0 168.0 M530 112L512.7 165.3 M530 112L497.1 157.3 M530 112L484.7 144.9 M530 112L476.7 129.3 M530 112L474.0 112.0 M530 112L476.7 94.7 M530 112L484.7 79.1 M530 112L497.1 66.7 M530 112L512.7 58.7 M530 112L530.0 56.0 M530 112L547.3 58.7 M530 112L562.9 66.7 M530 112L575.3 79.1 M530 112L583.3 94.7" fill="none" stroke-width="0.8"/><path d="M530 112L500 200M530 112L560 200" fill="none" stroke-width="4"/><path d="M946 160Q966 122 980 96M1100 96Q1114 122 1134 160" fill="none" stroke-width="3"/></g><circle cx="586.0" cy="112.0" r="2.6"/><circle cx="583.3" cy="129.3" r="2.6"/><circle cx="575.3" cy="144.9" r="2.6"/><circle cx="562.9" cy="157.3" r="2.6"/><circle cx="547.3" cy="165.3" r="2.6"/><circle cx="530.0" cy="168.0" r="2.6"/><circle cx="512.7" cy="165.3" r="2.6"/><circle cx="497.1" cy="157.3" r="2.6"/><circle cx="484.7" cy="144.9" r="2.6"/><circle cx="476.7" cy="129.3" r="2.6"/><circle cx="474.0" cy="112.0" r="2.6"/><circle cx="476.7" cy="94.7" r="2.6"/><circle cx="484.7" cy="79.1" r="2.6"/><circle cx="497.1" cy="66.7" r="2.6"/><circle cx="512.7" cy="58.7" r="2.6"/><circle cx="530.0" cy="56.0" r="2.6"/><circle cx="547.3" cy="58.7" r="2.6"/><circle cx="562.9" cy="66.7" r="2.6"/><circle cx="575.3" cy="79.1" r="2.6"/><circle cx="583.3" cy="94.7" r="2.6"/></g>
+<circle class="sk-clock" cx="615" cy="84" r="4.5"/>
+  </svg>
+</header>
+
+<main>
+  <section class="sec cream intro" aria-labelledby="intro-h">
+    <div class="wrap">
+      <ul class="emblem" aria-label="404010: forty, forty, ten">
+        <li><b class="fat">40</b><span class="caps">Kate years</span></li>
+        <li><b class="fat">40</b><span class="caps">Henry years</span></li>
+        <li><b class="fat">10</b><span class="caps">Wedded years</span></li>
+      </ul>
+      <div class="intro-copy">
+        <div class="head">
+          <h2 id="intro-h">The do-over</h2>
+          <svg class="spark" aria-hidden="true"><use href="#spk"/></svg>
+        </div>
+        <p class="lead">Please join us to celebrate Kate and Henry’s 40th birthdays and 10&#8209;year wedding anniversary.</p>
+        <p>It’s actually Kate’s 41st, but we couldn’t celebrate her 40th.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec navy" id="details" aria-labelledby="details-h">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">One night only</p>
+        <h2 id="details-h">Details</h2>
+        <svg class="spark" aria-hidden="true"><use href="#spk"/></svg>
+      </div>
+      <div class="ticket-wrap"><article class="ticket">
+        <div class="t-main">
+          <div>
+            <p class="t-label caps">When</p>
+            <p class="t-big fat">Saturday 29<sup>th</sup> May&nbsp;2027</p>
+            <p class="t-sub">8pm till 2am</p>
+          </div>
+          <div>
+            <p class="t-label caps">Where</p>
+            <p class="t-big">The Chapel Bar</p>
+            <address class="t-sub">29 Penton St, London&nbsp;N1&nbsp;9PX</address>
+          </div>
+          <div class="t-links">
+            <a class="btn" href="https://thechapelbar.co.uk/" target="_blank" rel="noopener">Venue website <span aria-hidden="true">↗</span></a>
+            <a class="btn" href="https://maps.google.com/?q=The+Chapel+Bar,+29+Penton+St,+London+N1+9PX" target="_blank" rel="noopener">Open in Google Maps <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="t-stub" aria-hidden="true">
+          <span>Admit</span><strong>All of you</strong><span class="no fat">No. 404010</span>
+        </div>
+      </article></div>
+    </div>
+  </section>
+
+  <section class="sec cream" aria-labelledby="prog-h">
+    <div class="wrap">
+      <div class="head">
+        <h2 id="prog-h">Running order</h2>
+        <svg class="spark" aria-hidden="true"><use href="#spk"/></svg>
+      </div>
+      <ol class="programme">
+        <li><time class="fat">8pm</time><span class="what">Arrival, drinks &amp; canapés</span></li>
+        <li><time class="fat">8:30pm</time><span class="what">Speeches, vow renewal &amp; cake</span></li>
+        <li><time class="fat">10pm</time><span class="what">DJs &amp; dancing start</span></li>
+        <li><time class="fat">12am</time><span class="what">Henry’s 404010 celebration DJ set</span></li>
+        <li><time class="fat">2am</time><span class="what">Lights up, carriages home</span></li>
+      </ol>
+      <p class="note">Timings are approximate.</p>
+    </div>
+  </section>
+
+  <section class="sec navy" aria-labelledby="faq-h">
+    <div class="wrap">
+      <div class="head">
+        <h2 id="faq-h">Good to know</h2>
+        <svg class="spark" aria-hidden="true"><use href="#spk"/></svg>
+      </div>
+      <div class="faq">
+        <article><h3><svg aria-hidden="true"><use href="#star4"/></svg>Will there be food?</h3><p>Canapés on arrival, and we will provide some food later on in the evening to keep y’all going through the night.</p></article>
+        <article><h3><svg aria-hidden="true"><use href="#star4"/></svg>Will it be sweaty?</h3><p>The venue has aircon!</p></article>
+        <article><h3><svg aria-hidden="true"><use href="#star4"/></svg>What should I wear?</h3><p>There’s no dress code, but feel free to beautify yourself if that’s your bag.</p></article>
+        <article><h3><svg aria-hidden="true"><use href="#star4"/></svg>Can I bring my partner / throuple / therapist?</h3><p>The more the merrier!</p></article>
+        <article class="wide"><h3><svg aria-hidden="true"><use href="#star4"/></svg>Can I bring the kids?</h3><p>The venue does allow children as long as they have prior notice. However, we don’t recommend bringing infants: there’s no dedicated baby changing facility, it will be loud, and this is likely to be a boozy event.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec cream" id="rsvp" aria-labelledby="rsvp-h">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">Save your spot</p>
+        <h2 id="rsvp-h">RSVP</h2>
+        <svg class="spark" aria-hidden="true"><use href="#spk"/></svg>
+      </div>
+      <div class="card">
+        <form id="rsvp-form" novalidate>
+          <div class="size">
+            <label for="party-size">How many people are you RSVPing for?</label>
+            <div class="stepper">
+              <button type="button" data-step="-1" aria-label="One fewer person">−</button>
+              <input id="party-size" class="fat" type="number" min="1" max="8" value="1" inputmode="numeric" aria-describedby="size-hint">
+              <button type="button" data-step="1" aria-label="One more person">+</button>
+            </div>
+            <span id="size-hint" class="hint">Up to 8 per reply</span>
+          </div>
+          <div id="guests" aria-live="polite"></div>
+          <div class="hp" aria-hidden="true"><label for="website">Website</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+          <div class="actions">
+            <p class="form-error" id="form-error" role="alert" hidden>Sorry, that didn’t go through. Check your connection and try again.</p>
+            <button class="btn primary submit" type="submit" id="submit">Send our reply</button>
+          </div>
+        </form>
+        <div class="success" id="success" tabindex="-1" hidden>
+          <svg viewBox="0 0 110 80" aria-hidden="true">
+            <use href="#star4" x="30" y="10" width="50" height="50" style="color:var(--gold-deep)"/>
+            <use href="#star4" x="8" y="44" width="20" height="20" style="color:var(--navy)"/>
+            <use href="#star4" x="84" y="4" width="18" height="18" style="color:var(--blue)"/>
+          </svg>
+          <h3>You’re in!</h3>
+          <p>See you on 29th May. We’ll save you a spot on the dance floor.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p class="sig">Kate <span>&amp;</span> Henry</p>
+  <p>Saturday 29<sup>th</sup> May 2027 · The Chapel Bar,&nbsp;Islington</p>
+  <p class="code fat">404010</p>
+</footer>
+
+<template id="person-tpl">
+  <fieldset class="person">
+    <legend>Person N</legend>
+    <div class="pgrid">
+      <div class="field"><label data-for="name">Name</label><input data-k="name" type="text" autocomplete="name" required></div>
+      <div class="field"><label data-for="email">Email <span class="opt">optional</span></label><input data-k="email" type="email" autocomplete="email"></div>
+      <div class="field full"><label data-for="dietary">Dietary requirements <span class="opt">optional</span></label><input data-k="dietary" type="text" placeholder="e.g. vegetarian, nut allergy"></div>
+      <div class="field full"><label data-for="other">Any other information <span class="opt">optional</span></label><textarea data-k="other" rows="3"></textarea></div>
+    </div>
+  </fieldset>
+</template>
+
+<script>
+const RSVP_WEBHOOK_URL = "https://drbstudios.app.n8n.cloud/webhook/404010-rsvp";
+
+/* RSVP form */
+(function () {
+  const form = document.getElementById("rsvp-form");
+  const sizeInput = document.getElementById("party-size");
+  const guests = document.getElementById("guests");
+  const tpl = document.getElementById("person-tpl");
+  const submitBtn = document.getElementById("submit");
+  const errorBox = document.getElementById("form-error");
+  const success = document.getElementById("success");
+  const [minus, plus] = form.querySelectorAll(".stepper button");
+  const blocks = []; // blocks beyond the party size are detached, not destroyed, so typed data survives
+
+  function makeBlock(n) {
+    const el = tpl.content.firstElementChild.cloneNode(true);
+    el.querySelector("legend").innerHTML = `<span>Person <span class="fat">${n}</span></span>`;
+    el.querySelectorAll("[data-k]").forEach(inp => { inp.id = `p${n}-${inp.dataset.k}`; inp.name = `guest${n}_${inp.dataset.k}`; });
+    el.querySelectorAll("[data-for]").forEach(l => { l.htmlFor = `p${n}-${l.dataset.for}`; });
+    return el;
+  }
+
+  function setSize(n) {
+    n = Math.min(8, Math.max(1, parseInt(n, 10) || 1));
+    sizeInput.value = n;
+    while (blocks.length < n) blocks.push(makeBlock(blocks.length + 1));
+    blocks.forEach((b, i) => { if (i < n) { if (!b.isConnected) guests.appendChild(b); } else b.remove(); });
+    minus.disabled = n <= 1; plus.disabled = n >= 8;
+  }
+
+  form.querySelectorAll("[data-step]").forEach(btn =>
+    btn.addEventListener("click", () => setSize((parseInt(sizeInput.value, 10) || 1) + Number(btn.dataset.step))));
+  sizeInput.addEventListener("change", () => setSize(sizeInput.value));
+  sizeInput.addEventListener("input", () => { const v = parseInt(sizeInput.value, 10); if (v >= 1 && v <= 8) setSize(v); });
+  setSize(1);
+
+  function showSuccess() { form.hidden = true; success.hidden = false; success.focus(); }
+
+  let sending = false, failed = false;
+  form.addEventListener("submit", async e => {
+    e.preventDefault();
+    if (sending) return;
+    blocks.forEach(b => { const n = b.querySelector('[data-k="name"]'); n.setCustomValidity(n.value.trim() ? "" : "Please enter a name."); });
+    if (!form.checkValidity()) { form.reportValidity(); return; }
+    errorBox.hidden = true;
+    if (form.elements.website.value.trim()) { showSuccess(); return; } // honeypot: pretend, don't send
+    const live = blocks.filter(b => b.isConnected);
+    const val = (b, k) => b.querySelector(`[data-k="${k}"]`).value.trim();
+    const payload = {
+      party_size: live.length,
+      guests: live.map(b => ({ name: val(b, "name"), email: val(b, "email"), dietary: val(b, "dietary"), other: val(b, "other") })),
+      submitted_at: new Date().toISOString(),
+      page: location.href.split("#")[0]
+    };
+    sending = true; submitBtn.disabled = true; submitBtn.textContent = "Sending…";
+    try {
+      const res = await fetch(RSVP_WEBHOOK_URL, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      showSuccess();
+    } catch (err) {
+      errorBox.hidden = false; failed = true;
+    } finally {
+      sending = false; submitBtn.disabled = false; submitBtn.textContent = failed ? "Try again" : "Send our reply";
+    }
+  });
+})();
+</script>
+</body>
+</html>
